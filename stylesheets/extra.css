@@ -1,0 +1,14 @@
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  padding: 4px 10px;
+}
+
+.md-typeset p {
+  line-height: normal;
+  margin: 0;
+}
+
+.md-typeset :is(h1, h2, h3, h4, h5, h6) {
+  line-height: normal;
+  margin-bottom: 0.5em;
+}
