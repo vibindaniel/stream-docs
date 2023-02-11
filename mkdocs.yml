@@ -1,0 +1,32 @@
+site_name: Ly Vibin LiveStream/DJ
+use_directory_urls: false
+
+# nav:
+#   - Livestream: livestream
+#   - DJ
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+    - navigation.expand
+    - toc.follow
+    # - navigation.top
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: amber
+
+  plugins:
+    - tags
+    - search
+
+markdown_extensions:
+  - tables
+
+extra_css:
+  - stylesheets/extra.css
